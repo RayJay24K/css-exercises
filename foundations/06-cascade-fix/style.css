@@ -3,7 +3,7 @@
   color: hsl(0, 100%, 50%);
 }
 
-.small-para {
+p.small-para {
   font-size: 14px;
 }
 
@@ -24,12 +24,16 @@
   font-size: 20px;
 }
 
-div.child {
+<!--div.child {
   color: red;
-  font-size: 14px;
+  font-size: 14px; -->
 }
 
 div.text {
   color: green;
   font-size: 22px;
+}
+div .text.child{
+  color:red;
+  font-size:14px;
 }
